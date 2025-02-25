@@ -82,7 +82,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: left 0.3s;
+            transition: left 0.3s, background-color 0.3s;
         }
         .toggle-circle::before {
             content: '\2600'; /* Sun emoji */
@@ -91,10 +91,11 @@
         }
         .dark-mode .toggle-circle {
             left: 25px;
+            background-color: #222;
         }
         .dark-mode .toggle-circle::before {
             content: '\1F319'; /* Moon emoji */
-            color: silver;
+            color: white;
         }
     </style>
 </head>
