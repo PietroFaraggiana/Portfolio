@@ -34,6 +34,9 @@
             color: var(--header-text);
             padding: 20px;
             font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         nav a {
             margin: 0 15px;
@@ -57,25 +60,46 @@
             color: var(--header-text);
         }
         .theme-toggle {
-            margin-top: 10px;
-            padding: 10px 20px;
+            width: 50px;
+            height: 25px;
             border: none;
             cursor: pointer;
-            background-color: var(--header-bg);
-            color: var(--header-text);
-            border-radius: 5px;
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        .theme-toggle::before {
+            content: '\2600'; /* Sun emoji */
+            font-size: 18px;
+            color: gold;
+        }
+        .theme-toggle::after {
+            content: '\1F319'; /* Moon emoji */
+            font-size: 18px;
+            color: silver;
+            display: none;
+        }
+        .dark-mode .theme-toggle::before {
+            display: none;
+        }
+        .dark-mode .theme-toggle::after {
+            display: block;
         }
     </style>
 </head>
 <body>
     <header>
-        Portfolio
+        <span>Portfolio</span>
         <nav>
             <a href="#projects">Projects</a>
             <a href="#notes">Notes</a>
             <a href="#contacts">Contacts</a>
         </nav>
-        <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+        <button class="theme-toggle" onclick="toggleTheme()"></button>
     </header>
     <div class="container">
         <section id="about" class="card">
@@ -100,15 +124,6 @@
                 <li><a href="#">Physics 1</a></li>
                 <li><a href="#">Physics 2</a></li>
                 <li><a href="#">Physics 3*</a></li>
-                <li><a href="#">Classical Mechanics</a></li>
-                <li><a href="#">Quantum Mechanics</a></li>
-                <li><a href="#">Programming: C++*</a></li>
-                <li><a href="#">Data analysis (Computational language: Python and Fortran)</a></li>
-                <li><a href="#">Lab Instrumentation and Analog Electronics</a></li>
-                <li><a href="#">Analog Electronics and Digital Electronics</a></li>
-                <li><a href="#">Mathematical Methods for Physics 1 & 2</a></li>
-                <li><a href="#">Physics of Materials for Photonics</a></li>
-                <li><a href="#">Chemistry*</a></li>
             </ul>
         </section>
         <section id="contacts" class="card">
