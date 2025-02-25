@@ -12,6 +12,7 @@
             --header-bg: #333;
             --header-text: white;
             --footer-bg: #333;
+            --link-color: blue;
         }
         .dark-mode {
             --bg-color: #121212;
@@ -20,6 +21,7 @@
             --header-bg: #222;
             --header-text: #f4f4f4;
             --footer-bg: #222;
+            --link-color: green;
         }
         body {
             font-family: Arial, sans-serif;
@@ -29,6 +31,13 @@
             color: var(--text-color);
             text-align: center;
             transition: background-color 0.3s, color 0.3s;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:visited {
+            color: var(--link-color);
         }
         header {
             background-color: var(--header-bg);
@@ -44,10 +53,6 @@
             color: var(--header-text);
             text-decoration: none;
         }
-        a:visited {
-            color: blue;
-        }
-
         .container {
             padding: 20px;
         }
