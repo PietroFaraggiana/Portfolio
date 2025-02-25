@@ -51,11 +51,6 @@
         }
         nav a {
             margin: 0 15px;
-            color: var(--header-text);
-            text-decoration: none;
-        }
-        nav a {
-            margin: 0 15px;
             color: var(--header-text) !important;
             text-decoration: none;
         }
@@ -75,7 +70,7 @@
         }
         footer {
             margin-top: 20px;
-            padding: 10px;
+            padding: 15px;
             background-color: var(--footer-bg);
             color: var(--header-text);
         }
@@ -107,6 +102,9 @@
         .dark-mode .toggle-icon::before {
             content: '\1F319'; /* Moon emoji */
             color: white;
+        }
+        ul {
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -162,7 +160,7 @@
                 <li><a href="#">Power and Control Electronics</a></li>
                 <li><a href="#">Microelectronics system design</a></li>
                 <li><a href="#">Semiconductor Fabrication Technologies</a></li>
-                <li><a href="#">Telecomunications</a></li>
+                <li><a href="#">Telecommunications</a></li>
             </ul>
                 <p>(2026)</p>
             <ul>
@@ -177,7 +175,7 @@
         <section id="contacts" class="card">
             <h2>Contacts</h2>
             <p>Email: <a href="mailto:pietro.faraggiana@gmail.com">pietro.faraggiana@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/pietro-faraggiana-6a1890290/">Pietro Faraggiana</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/pietro-faraggiana-6a1890290/" target="_blank" rel="noopener noreferrer">Pietro Faraggiana</a></p>
         </section>
     </div>
 <footer>
@@ -187,8 +185,15 @@
 <script>
     function toggleTheme() {
         document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
     }
+    document.addEventListener("DOMContentLoaded", function () {
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    });
 </script>
+
 </body>
 </html>
 
