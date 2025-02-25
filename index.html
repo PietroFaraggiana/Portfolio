@@ -28,6 +28,7 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             text-align: center;
+            transition: background-color 0.3s, color 0.3s;
         }
         header {
             background-color: var(--header-bg);
@@ -62,32 +63,38 @@
         .theme-toggle {
             width: 50px;
             height: 25px;
-            border: none;
-            cursor: pointer;
             background-color: var(--card-bg);
-            border-radius: 20px;
+            border-radius: 25px;
             position: relative;
             display: flex;
             align-items: center;
-            justify-content: space-between;
             padding: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
-        .theme-toggle::before {
+        .toggle-circle {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: left 0.3s;
+        }
+        .toggle-circle::before {
             content: '\2600'; /* Sun emoji */
-            font-size: 18px;
+            font-size: 14px;
             color: gold;
         }
-        .theme-toggle::after {
+        .dark-mode .toggle-circle {
+            left: 25px;
+        }
+        .dark-mode .toggle-circle::before {
             content: '\1F319'; /* Moon emoji */
-            font-size: 18px;
             color: silver;
-            display: none;
-        }
-        .dark-mode .theme-toggle::before {
-            display: none;
-        }
-        .dark-mode .theme-toggle::after {
-            display: block;
         }
     </style>
 </head>
@@ -99,7 +106,9 @@
             <a href="#notes">Notes</a>
             <a href="#contacts">Contacts</a>
         </nav>
-        <button class="theme-toggle" onclick="toggleTheme()"></button>
+        <div class="theme-toggle" onclick="toggleTheme()">
+            <div class="toggle-circle"></div>
+        </div>
     </header>
     <div class="container">
         <section id="about" class="card">
