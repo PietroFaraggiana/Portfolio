@@ -72,28 +72,20 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
-        .toggle-circle {
-            width: 20px;
-            height: 20px;
-            background-color: #fff;
-            border-radius: 50%;
+        .toggle-icon {
+            font-size: 18px;
             position: absolute;
             left: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: left 0.3s, background-color 0.3s;
+            transition: left 0.3s;
         }
-        .toggle-circle::before {
+        .toggle-icon::before {
             content: '\2600'; /* Sun emoji */
-            font-size: 14px;
             color: gold;
         }
-        .dark-mode .toggle-circle {
-            left: 25px;
-            background-color: #222;
+        .dark-mode .toggle-icon {
+            left: 28px;
         }
-        .dark-mode .toggle-circle::before {
+        .dark-mode .toggle-icon::before {
             content: '\1F319'; /* Moon emoji */
             color: white;
         }
@@ -108,7 +100,7 @@
             <a href="#contacts">Contacts</a>
         </nav>
         <div class="theme-toggle" onclick="toggleTheme()">
-            <div class="toggle-circle"></div>
+            <div class="toggle-icon"></div>
         </div>
     </header>
     <div class="container">
