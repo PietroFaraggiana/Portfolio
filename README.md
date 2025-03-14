@@ -18,13 +18,6 @@ You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.
 
 ---
 
-## 🛠️ Technologies Used
-- **HTML5 & CSS3** 🎨
-- **JavaScript (for Dark Mode Toggle)** ⚡
-- **GitHub Pages** 🚀
-
----
-
 ## 📂 Repostory Structure
 ```
 📦 portfolio
