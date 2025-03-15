@@ -41,8 +41,8 @@ You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.
 📦 portfolio
 ├── 📜 index.html        # Main webpage
 ├── 📜 README.md         # This file
-├── 📂  Projects          # Personal or university projects
-└── 📂  Notes             # LaTex notes written during my bachelor in Physics
+├── 📂  Projects         # Personal or university projects
+└── 📂  Notes            # LaTex notes written during my bachelor in Physics
 ```
 
 ---
