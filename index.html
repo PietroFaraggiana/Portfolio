@@ -27,15 +27,20 @@
         .course-content ol li {
             margin-left: 10px; /* Aggiunge un leggero margine per distanziare il testo dal numero */
         }
-
         .course-title {
             cursor: pointer;
             font-weight: bold;
-            color: blue;
-            text-decoration: underline;
+            color: var(--link-color);
+            text-decoration: none;
             display: block;
             margin-bottom: 5px;
         }
+        
+        .course-title:visited {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
         .course-details {
             display: flex;
             align-items: flex-start;
@@ -286,7 +291,6 @@ I also enjoy skiing whenever I get the chance, though it's mainly a recreational
                         </ol>
                     </div>
                 </li>
-                <li><a href="#">Telecommunications Electronics, 9 CFU</a></li>
                 <li>
                     <span class="course-title" onclick="toggleCourse('telecommunications-electronics')">Telecommunications Electronics</span>
                     <div id="telecommunications-electronics" class="course-content">
