@@ -11,8 +11,8 @@ Welcome to my GitHub profile! I'm an **Italian student** passionate about **hard
 - 🎓 **Bachelor's in Physics**
 - 🛠️ Transitioned to **Electronics Engineering**
 - 💻 Passionate about **quantum computing** and **AI accelerators**
-- 🏃 **Track & Field athlete** – Achieved **5th place** in the **100m event** at the 2024 Italian University Championship
-- 🎿 Enjoy skiing whenever I get the chance ⛷️
+- 🏃 **Track & Field athlete**
+- 🎿 Enjoy skiing whenever I get the chance 
 
 ---
 
