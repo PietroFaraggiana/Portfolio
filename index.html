@@ -214,16 +214,197 @@ I also enjoy skiing whenever I get the chance, though it's mainly a recreational
             <h2>Courses Taken</h2>
             <p><strong>Bachelor in Physics</strong></p>
             <ul>
-                <li><a href="#">Calculus, 15 CFU 1</a></li>
-                <li><a href="#">Calculus 2,6 CFU</a></li>
-                <li><a href="#">Linear Algebra and Geometry, 12 CFU</a></li>
-                <li><a href="#">Physics 1, 15 CFU</a></li>
-                <li><a href="#">Physics 2, 15 CFU</a></li>
-                <li><a href="#">Physics 3, 9 CFU</a></li>
-                <li><a href="#">Classical Mechanics, 12 CFU</a></li>
-                <li><a href="#">Quantum Mechanics, 15 CFU</a></li>
-                <li><a href="#">Programming: C++, 6 CFU</a></li>
-                <li><a href="#">Data analysis (Computational language: Python and Fortran), 15 CFU</a></li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('cuno')">Calculus 1</span>
+                    <div id="cuno" class="course-content">
+                        <p class="course-cfu">15 CFU</p>
+                        <ol>
+                            <li>Logical Connectives, Quantifiers, and Set Theory</li>
+                            <li>Functions, Invertibility, and Cardinality</li>
+                            <li>Continuity and Limits: Monotone Sequences, Fixed Points, Asymptotics</li>
+                            <li>Series: Convergence Criteria, Absolute and Conditional Convergence</li>
+                            <li>Differential Calculus: Derivatives, Convexity, Taylor Series</li>
+                            <li>Integral Calculus: Riemann Integral, Improper Integrals, Wallis and Stirling Formulas</li>
+                            <li>Uniform Convergence: Metric Spaces, Cauchy Sequences, Banach Fixed-Point Theorem</li>
+                            <li>Differential Equations: First-Order, Higher-Order, Cauchy-Lipschitz Theorem</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('cdue')">Calculus 2</span>
+                    <div id="cdue" class="course-content">
+                        <p class="course-cfu">6 CFU</p>
+                        <ol>
+                            <li>Differential Calculus in Euclidean Space: Open, Closed, and Compact Sets</li>
+                            <li>Vector Operations: Dot Product, Cross Product, and Geometric Interpretations</li>
+                            <li>Continuity and Differentiability: Gradients, Jacobian Matrix, Taylor Expansions</li>
+                            <li>Extrema in Euclidean Space: Hessian Matrix, Sylvester's Criterion</li>
+                            <li>Constrained Optimization: Lagrange Multipliers</li>
+                            <li>Vector Fields and Differential 1-Forms: Conservative Fields, Line Integrals</li>
+                            <li>Lebesgue Integration: Measure Theory, Fubini’s Theorem, Change of Variables</li>
+                            <li>Vector Calculus: Gauss-Green, Divergence, Stokes’ Theorems</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('lag')">Linear Algebra and Geometry</span>
+                    <div id="lag" class="course-content">
+                        <p class="course-cfu">12 CFU</p>
+                        <ol>
+                            <li>Geometric Vectors: Operations, Coordinate Representation, Applications</li>
+                            <li>Vector Spaces: Field Axioms, Bases, Span, Independence, Grassmann’s Formula</li>
+                            <li>Linear Systems: Rouché-Capelli Theorem, Gaussian Elimination, Rank</li>
+                            <li>Linear Transformations: Kernel, Image, Matrix Representation, Base Change</li>
+                            <li>Determinants: Properties, Row/Column Expansion, Inverse Matrix, Binet’s Theorem</li>
+                            <li>Eigenvalues and Eigenvectors: Characteristic Polynomial, Diagonalizability</li>
+                            <li>Minimum Polynomial, Hamilton-Cayley Theorem, Invariant Subspaces</li>
+                            <li>Inner Product Spaces: Orthogonality, Gram-Schmidt, Sylvester’s Theorem</li>
+                            <li>Hermitian, Symmetric, Orthogonal, and Unitary Operators</li>
+                            <li>Spectral Theorem and Normal Matrix Triangularization</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('puno')">Physics 1</span>
+                    <div id="puno" class="course-content">
+                        <p class="course-cfu">15 CFU</p>
+                        <ol>
+                            <li>Introduction to Physics: Scientific Method, Theory and Experimentation</li>
+                            <li>Physical Quantities and Measurement: Units, Significant Figures, and Error Propagation</li>
+                            <li>Kinematics: Motion in One and Two Dimensions, Velocity, Acceleration</li>
+                            <li>Dynamics: Newton’s Laws, Momentum, Energy, and Work</li>
+                            <li>Systems of Particles: Center of Mass, Collisions, Non-Inertial Frames</li>
+                            <li>Gravitation: Newton’s Law, Kepler’s Laws, Orbital Mechanics</li>
+                            <li>Rigid Body Dynamics: Angular Momentum, Rotational Inertia, Steiner’s Theorem</li>
+                            <li>Oscillations and Waves: Simple and Damped Harmonic Motion, Resonance</li>
+                            <li>Thermodynamics: Temperature, Heat Transfer, Laws of Thermodynamics</li>
+                            <li>Entropy and Statistical Mechanics: Carnot Cycle, Maxwell-Boltzmann Distribution</li>
+                            <li>Electromagnetism (Introduction): Electric and Magnetic Fields, Gauss’s and Ampère’s Laws</li>
+                            <li>Special Relativity: Lorentz Transformations, Time Dilation, Mass-Energy Equivalence</li>
+                            <li>Fluid Mechanics: Pressure, Archimedes’ Principle, Bernoulli’s Equation</li>
+                            <li>Differential Equations in Physics: Classical Mechanics, Thermodynamics, and Electromagnetism</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('pdue')">Physics 2</span>
+                    <div id="pdue" class="course-content">
+                        <p class="course-cfu">15 CFU</p>
+                        <ol>
+                            <li>Fundamental Forces and Their Relative Strengths</li>
+                            <li>Differential Operators: Gradient, Divergence, Curl; Gauss' and Stokes' Theorems</li>
+                            <li>Electric Fields: Coulomb's Law, Charge Distributions, Potential, and Dipoles</li>
+                            <li>Electrostatics: Conductors, Method of Images, Dielectrics, Capacitance</li>
+                            <li>Electric Currents: Continuity Equation, Resistance, Kirchhoff's Laws</li>
+                            <li>Magnetic Fields: Lorentz Force, Induced Fields, Magnetic Dipoles</li>
+                            <li>Maxwell's Equations and Electromagnetic Waves</li>
+                            <li>Energy, Momentum, and Radiation Pressure of EM Waves</li>
+                            <li>Wave Propagation: Dielectrics, Conductors, Plasma</li>
+                            <li>Reflection, Refraction, and Interference: Snell's, Fresnel's Laws</li>
+                            <li>Fourier Analysis, Phase and Group Velocity</li>
+                            <li>Relativistic Electromagnetism: Field Tensor, Charge Radiation</li>
+                            <li>Thomson Scattering and Dipole/Quadrupole Radiation</li>
+                            <li>Fraunhofer and Fresnel Diffraction</li>
+                            <li>Young's and Michelson-Morley Interference Experiments</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('ptre')">Physics 3</span>
+                    <div id="ptre" class="course-content">
+                        <p class="course-cfu">9 CFU</p>
+                        <ol>
+                            <li>Advanced Electromagnetism: Covariant Formulation, Energy-Momentum Tensor, Radiation from Moving Charges</li>
+                            <li>Electromagnetic Waves and Matter: Scattering Cross-Sections, Resonant Systems, Optical Theorem</li>
+                            <li>Particle Scattering: Rutherford Scattering, Nuclear Models, Decay Processes, Mossbauer Effect</li>
+                            <li>Charged Particles in Matter: Cherenkov Radiation, Energy Loss, Bremsstrahlung, Multiple Scattering</li>
+                            <li>Classic Experiments: Discovery of Positrons, Antiprotons, and Neutron Production</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('cm')">Classical Mechanics</span>
+                    <div id="cm" class="course-content">
+                        <p class="course-cfu">12 CFU</p>
+                        <ol>
+                            <li>Analytical Mechanics: Conservation Laws, Euler-Lagrange Equations, and Noether’s Theorem</li>
+                            <li>Rigid Body Dynamics: Rotations, Euler Angles, and Inertia Tensor</li>
+                            <li>Small Oscillations: Normal Modes, Coupled Oscillators, and the Elastic String</li>
+                            <li>Hamiltonian Mechanics: Phase Space, Poisson Brackets, and Canonical Transformations</li>
+                            <li>Relativity: Michelson-Morley Experiment, Lorentz Transformations, and Energy-Momentum Tensor</li>
+                            <li>Relativistic Particle Dynamics: Four-Vectors, Center-of-Mass System, and Decay Kinematics</li>
+                            <li>Statistical Mechanics: Gibbs’ Formalism, Microcanonical and Canonical Ensembles</li>
+                            <li>Thermodynamic Potentials: Partition Function, Ideal Gas, and Heat Capacity</li>
+                            <li>Quantum Aspects: Discrete Energy Levels, Einstein Model, and Debye Theory</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('qm')">Quantum Mechanics</span>
+                    <div id="qm" class="course-content">
+                        <p class="course-cfu">15 CFU</p>
+                        <ol>
+                            <li>Introduction to Quantum Mechanics: Experimental Evidence, Franck-Hertz Experiment</li>
+                            <li>Mathematical Foundations: Vector Spaces, Inner Products, Dirac Notation</li>
+                            <li>Operators in Hilbert Space: Self-Adjoint Operators, Eigenvalues, and Basis Transformations</li>
+                            <li>Postulates of Quantum Mechanics: Observables, Expectation Values, and Born’s Rule</li>
+                            <li>Schrödinger Equation: Time Evolution, Unitary Operators, Heisenberg and Schrödinger Pictures</li>
+                            <li>Symmetries and Conservation Laws: Wigner's Theorem, Commutation Relations, and Uncertainty Principle</li>
+                            <li>Harmonic Oscillator: Creation and Annihilation Operators, Energy Spectrum</li>
+                            <li>Quantum Two-Level Systems: Pauli Matrices, Qubit Representation, and Entanglement</li>
+                            <li>Angular Momentum: Commutation Relations, Spherical Harmonics, and Spin</li>
+                            <li>Hydrogen Atom: Coulomb Potential, Energy Spectrum, and Fine Structure</li>
+                            <li>Perturbation Theory: Time-Independent and Time-Dependent Cases</li>
+                            <li>Quantum Scattering Theory: Born Approximation, Cross Sections, and Partial Waves</li>
+                            <li>Identical Particles: Bosons and Fermions, Exchange Symmetry, Pauli Exclusion Principle</li>
+                            <li>Quantum Tunneling: Potential Barriers, Reflection and Transmission Coefficients</li>
+                            <li>Quantum Field Theory Introduction: Phonons, Collective Excitations, and Fermi’s Golden Rule</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('progc')">Programming: C++</span>
+                    <div id="progc" class="course-content">
+                        <p class="course-cfu">6 CFU</p>
+                        <ol>
+                            <li>Introduction to Computational Problems: Decidability and Tractability (P, NP, NPC, EXP-TIME)</li>
+                            <li>Complexity Theory: Models, Input/Output Size, Decision Trees, Upper and Lower Bounds</li>
+                            <li>Divide and Conquer: Recurrence Relations and Master Theorem</li>
+                            <li>Sorting and Searching Algorithms on Static/Dynamic Sequences</li>
+                            <li>Stable Marriage Problem and Maximum Subarray Sum</li>
+                            <li>Dynamic Programming: LCS, Partition, and Knapsack Problem</li>
+                            <li>Combinations and Permutations</li>
+                            <li>Greedy Algorithms: Knapsack and Variants</li>
+                            <li>Tree Representation and Traversal</li>
+                            <li>Dictionaries: 2-3 Trees, Hash Tables, and Tries</li>
+                            <li>Randomized Algorithms: Quicksort and QuickSelect</li>
+                            <li>Graph Theory: Representation and Traversal (DFS, BFS)</li>
+                            <li>Directed Acyclic Graphs (DAG) and Topological Sorting</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                <span class="course-title" onclick="toggleCourse('dapp')">Data analysis in physics (Python)</span>
+                    <div id="dapp" class="course-content">
+                        <p class="course-cfu">15 CFU</p>
+                        <ol>
+                            <li>Measurements, Units, and Uncertainties</li>
+                            <li>Data Reduction and Representation: Tables, Graphs, and Histograms</li>
+                            <li>Probability Theory: Discrete and Continuous Distributions, Expectation, Variance, and Standard Deviation</li>
+                            <li>Basic Statistics and Parameter Estimation</li>
+                            <li>Covariance and Correlation</li>
+                            <li>Central Limit Theorem</li>
+                            <li>Introduction to Computing</li>
+                            <li>Unix Shell Basics</li>
+                            <li>Compiled and Interpreted Programming Languages</li>
+                            <li>Python: Syntax, Data Types, Control Flow, Objects, and I/O</li>
+                            <li>Python Scientific Ecosystem</li>
+                            <li>LaTeX for Scientific Writing</li>
+                            <li>Curve Fitting and Least Squares Method</li>
+                            <li>Geometrical Optics</li>
+                        </ol>
+                    </div>
+                </li>
                 <li><a href="#">Lab Instrumentation and Analog Electronics, 12 CFU</a></li>
                 <li><a href="#">Analog Electronics and Digital Electronics, 12 CFU</a></li>
                 <li><a href="#">Mathematical Methods for Physics 1 & 2, 12 CFU</a></li>
