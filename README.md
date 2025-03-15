@@ -23,7 +23,7 @@ Welcome to my GitHub profile! I'm an **Italian student** passionate about **hard
 ### 🛠️🧠 Work and research experiences
 
 ## 🌍 Live Demo
-You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.github.io/)**
+You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.github.io/Portfolio)**
 
 ---
 
