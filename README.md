@@ -1,9 +1,9 @@
 # Portfolio Website
 
-Welcome to my personal portfolio website! 🚀
-# Hi there! 👋 I'm Pietro Faraggiana
+Welcome to my personal portfolio website! 
+# Hi there! I'm Pietro Faraggiana
 
-Welcome to my GitHub profile! I'm an **Italian student** passionate about **hardware electronics, quantum computing, and AI accelerators**. My journey started in **Physics**, but my interest in **electronics** led me to pursue a Master's in **Electronics Engineering** (expected to be completed in 2026). 🚀
+Welcome to my GitHub profile! I'm an **Italian student** passionate about **hardware electronics, quantum computing, and AI accelerators**. My journey started in **Physics**, but my interest in **electronics** led me to pursue a Master's in **Electronics Engineering** (expected to be completed in 2026). 
 
 ---
 
@@ -28,7 +28,7 @@ You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.
 ---
 
 ## 📜 Features
-- **Dark Mode Toggle 🌙**
+- **Dark Mode Toggle **
 - **Projects Section:** Includes my work on **track and field electronics**.
 - **Notes Section:** My **LaTeX** notes from my **Bachelor's in Physics**.
 - **Courses Taken:** A detailed list of my academic coursework.
@@ -47,12 +47,12 @@ You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.
 
 ---
 
-## 🚀 How to Contribute
+##  How to Contribute
 If you'd like to improve my website:
-1. **Fork** this repository 🍴
-2. Create a new **branch** 🛠
-3. Commit and push your changes 📤
-4. Open a **Pull Request** ✅
+1. **Fork** this repository 
+2. Create a new **branch** 
+3. Commit and push your changes 
+4. Open a **Pull Request** 
 
 ---
 
@@ -60,4 +60,4 @@ If you'd like to improve my website:
 - **Email:** [pietro.faraggiana@gmail.com](mailto:pietro.faraggiana@gmail.com)
 - **LinkedIn:** [Pietro Faraggiana](https://www.linkedin.com/in/pietro-faraggiana-6a1890290/)
 
-Feel free to reach out for collaborations or discussions related to **electronics, physics, and computing**! ⚡
+Feel free to reach out for collaborations or discussions related to **electronics, physics, and computing**! 
