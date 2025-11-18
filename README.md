@@ -17,11 +17,11 @@ Welcome to my GitHub profile! I'm an Italian student passionate about hardware e
 ---
 
 ## What You'll Find Here
-### Projects
-### LaTeX Notes from My Bachelor's in Physics
-### Certificates and CV
-### Work and research experiences
-### Track and Field stuff
+- Projects
+- LaTeX Notes from My Bachelor's in Physics
+- Certificates and CV
+- Work and research experiences
+- Track and Field stuff
 
 ## 🌍 Live Demo
 You can visit my portfolio here: **[GitHub Pages Link](https://pietrofaraggiana.github.io/Portfolio)**
